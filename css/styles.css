@@ -23,7 +23,6 @@
   --secondary-bg--mode-dark: #111319;
 }
 
-/* Common styles */
 body {
   font-family: var(--main-font);
   font-size: 18px;
