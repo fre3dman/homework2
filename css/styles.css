@@ -1,8 +1,8 @@
 :root {
   /* Основные шрифты */
-  --main-font: "Open Sans", sans-serif;
+  --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --accent-cl: #ff6c00;
+  --accent-cl: #55555;
 
   /* Светлая тема текста */
   --primary-txt--mode-light: #555555;
@@ -11,7 +11,7 @@
 
   /* Темная тема текста*/
   --primary-txt--mode-dark: #ffffff;
-  --secondary-txt--mode-dark: rgba(157, 164, 189, 0.6);
+  --secondary-txt--mode-dark: rgba(255, 255, 255, 0.1);
   --main-txt--mode-dark: #9da4bd;
 
   /* Светлая тема фона*/
@@ -24,12 +24,8 @@
 }
 
 body {
-  font-family: var(--main-font);
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-
-  color: var(--main-txt--mode-light);
+  background-color: var(--secondary-bg--mode-light);
+  color: var(--primary-txt--mode-dark);
 }
 
 .list {
