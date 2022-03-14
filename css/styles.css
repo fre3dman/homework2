@@ -1,5 +1,5 @@
 :root {
-  -primary-txt--mode-light: ##ffffff;
+  -primary-txt--mode-light: #ffffff;
   --secondary-txt--mode-light: #212121;
   --main-txt--mode-light: ##ffffff;
 }
@@ -13,5 +13,26 @@ body {
 .logo {
   font-family: Raleway cursive;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
+}
+
+.logo:hover {
+  color: var(--secondary-txt--mode-light);
+}
+
+button {
+  font-family: inherit;
+}
+
+.sait-nav .link {
+  color: var(--secondary-txt--mode-light);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: var(--title-text-color);
 }
