@@ -1,29 +1,37 @@
-:root {
-  /* Основные Шрифты */
-  -primary-txt--mode-light: #ffffff;
-  --secondary-txt--mode-light: #212121;
-  --main-txt--mode-light: #ffffff;
-
-  /* Светлая тема текста */
-  --primary-txt--mode-light: #555555;
-  --secondary-txt--mode-light: #303030;
-  --main-txt--mode-light: #555555;
-
-  /* Темная тема текста*/
-  --primary-txt--mode-dark: #ffffff;
-  --secondary-txt--mode-dark: rgba(157, 164, 189, 0.6);
-  --main-txt--mode-dark: #9da4bd;
-
-  /* Светлая тема фона*/
-  --primary-bg--mode-light: #ffffff;
-  --secondary-bg--mode-light: #f7f7f7;
-
-  /* Темная тема фона*/
-  --primary-bg--mode-dark: #191c26;
-  --secondary-bg--mode-dark: #111319;
-  --main-txt--mode-dark: #757575;
+body {
+  color: #212121;
+  background-color: #ffffff;
 }
 
-/* Common styles */
-body {
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста 
+rgba(117, 117, 117, 1) */
+
+/* Белый #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* цвет контакта rgba(255, 255, 255, 0.6) */
+
+/* вторичный цвет фона #2F303A */
+.logo {
+  color: #2196f3;
+}
+
+.logo:hover {
+  color: #212121;
+}
+
+/* site-nav*/
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+.auth-nav a {
+  color: rgba(117, 117, 117, 1);
 }
