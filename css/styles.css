@@ -1,8 +1,3 @@
-body {
-  color: #212121;
-  background-color: #ffffff;
-}
-
 /* цвет основного текста #212121 */
 
 /* вторичный цвет текста 
@@ -15,23 +10,50 @@ rgba(117, 117, 117, 1) */
 /* цвет контакта rgba(255, 255, 255, 0.6) */
 
 /* вторичный цвет фона #2F303A */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-colort: rgba(117, 117, 117, 1);
+  --accent-color: #2196f3;
+  --secondary-text-color: #ffffff;
+  --primary-gray-color: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo:hover {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 /* site-nav*/
 .site-nav a {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .auth-nav a {
-  color: rgba(117, 117, 117, 1);
+  color: var(--title-text-colort);
+}
+
+.title-mode-light {
+  color: var(--primary-text-color);
+}
+
+.uppertitle-mode-light {
+  color: var(--title-text-colort);
+}
+
+.nav-link {
+  color: var(--secondary-text-color);
+  background: var(--accent-color);
 }
