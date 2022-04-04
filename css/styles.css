@@ -53,7 +53,7 @@ body {
   color: var(--title-text-colort);
 }
 
-.nav-link {
+.button-primary {
   color: var(--secondary-text-color);
   background: var(--accent-color);
 }
