@@ -53,7 +53,17 @@ body {
   color: var(--title-text-colort);
 }
 
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+
 .button-primary {
   color: var(--secondary-text-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.button-secondary {
+  color: var(--primary-text-color);
+  background-color: var(--primary-gray-color);
 }
